@@ -18,10 +18,10 @@ function SettingsLayout({children}) {
           <PageTitle>{t('Settings')}</PageTitle>
           {/* TODO: make it shared <Pill /> or <Tab /> component */}
           <FlipFilter value={router.pathname} onChange={router.push}>
-            <FlipFilterOption value="/settingselkhabery">
+            <FlipFilterOption value="/settings">
               {t('General')}
             </FlipFilterOption>
-            <FlipFilterOption value="/settingselkhabery/nodeelkhabery">
+            <FlipFilterOption value="/settings/node">
               {t('Node')}
             </FlipFilterOption>
           </FlipFilter>

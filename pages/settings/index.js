@@ -26,7 +26,7 @@ function Settings() {
   )
 }
 
-function ExportPKa() {
+function ExportPK() {
   const {t} = useTranslation()
 
   const [password, setPassword] = useState()

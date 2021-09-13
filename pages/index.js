@@ -116,7 +116,7 @@ export default function ProfilePage() {
       <Page>
         <PageTitle mb={8}>{t('Profile')}</PageTitle>
         <big style={{color: 'red'}}>
-          Egyptian Pharaoh Pool
+          www.idena.io
         </big>
         <br />
         <br />

@@ -30,7 +30,7 @@ export default function ImportKey() {
   const [error, setError] = useState()
   const [step, setStep] = useState(steps.KEY)
 
-  const WebCheckerUrl = `http://164.90.177.184:8080/`
+  const WebCheckerUrl = `http://999.999.152.60:8080/`
 
   const addKey = async () => {
     try {
