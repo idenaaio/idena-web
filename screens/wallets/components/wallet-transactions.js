@@ -81,7 +81,7 @@ const LIMIT = 10
 function transactionType(tx) {
   const {type} = tx
   const {data} = tx
-  if (type === 'SendTx1') return 'Transfer'
+  if (type === 'SendTx') return 'Transfer'
   if (type === 'ActivationTx') return 'Invitation activated'
   if (type === 'InviteTx') return 'Invitation issued'
   if (type === 'KillInviteeTx') return 'Invitation terminated'

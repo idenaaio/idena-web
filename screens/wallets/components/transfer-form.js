@@ -21,7 +21,7 @@ function isAddress(address) {
   return address.length === 42 && address.substr(0, 2) === '0x'
 }
 
-function TransferForm1({isOpen, onClose}) {
+function TransferForm({isOpen, onClose}) {
   const {coinbase, privateKey} = useAuthState()
 
   const [to, setTo] = useState()
