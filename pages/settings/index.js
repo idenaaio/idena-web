@@ -45,9 +45,7 @@ function ExportPK() {
       <form
         onSubmit={e => {
           e.preventDefault()
-          const key = exportKey(password)
-          setPk(key)
-          setShowDialog(true)
+          
         }}
       >
         <Flex align="center">
